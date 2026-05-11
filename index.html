@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meu Portfólio</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #BFAB93;
+      color: white;
+    }
+
+    header {
+      background: #2E2E2E;
+      color: white;
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    header h1 {
+      font-size: 40px;
+    }
+
+    header p {
+      margin-top: 10px;
+      font-size: 18px;
+    }
+
+    section {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 20px;
+      background: #594747;
+      border-radius: 10px;
+    }
+
+    h2 {
+      margin-bottom: 15px;
+      color: white;
+    }
+
+    .projetos {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: #4a3d3d;
+      padding: 20px;
+      border-radius: 5px;
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: scale(1.03);
+    }
+    
+    .cardimg {
+      height: 250px;
+      width: 100%;
+      margin: auto
+    }
+    
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <img src="suit.png" width="100px" height="100px">
+    <h1>Cristian Luis Einecke Bibow Junior</h1>
+    <p>Estudante</p>
+  </header>
+
+  <section id="sobre">
+    <h2>Sobre Mim</h2>
+    <p>
+      Olá! Meu nome é Cristian e estou aprendendo desenvolvimento web.
+      Tenho conhecimentos em HTML, CSS, JavaScript e outras tecnologias.
+    </p>
+  </section>
+
+  <section id="projetos">
+    <h2>Projetos</h2>
+
+    <div class="projetos">
+
+      <div class="card">
+        <h3>Grand Theft Auto VI</h3>
+        <img src="gta.png" class="cardimg">
+        <p>O maior lançamento da história dos jogos, redefinindo o mundo aberto com gráficos absurdos, IA avançada e um mapa gigantesco inspirado na Flórida.</p>
+      </div>
+
+      <div class="card">
+        <h3>Half Life 3</h3>
+        <img src="hl3.jpg" class="cardimg">
+        <p>A continuação lendária que finalmente encerrou décadas de espera trazendo uma revolução narrativa e tecnológica para os jogos de FPS.</p>
+      </div>
+
+      <div class="card">
+        <h3>Xadrez 2</h3>
+        <img src="xadrez.jpg" class="cardimg">
+        <p>A sequência inesperada do xadrez clássico que adicionou novas peças, habilidades especiais e destruiu amizades competitivas em minutos.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="contato">
+    <h2>Contato</h2>
+    <p>Email: critianluis45@gmail.com</p>
+    <p>GitHub: github.com/010br</p>
+  </section>
+
+</body>
+</html>
